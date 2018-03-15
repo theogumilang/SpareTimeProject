@@ -58,5 +58,74 @@ export const gunung = [
         "height" : "1.653 mdpl",
         "city" : "Mojokerto",
         "image" : "https://i2.wp.com/liburmulu.com/wp-content/uploads/2017/03/Gunung-Penanggungan-Dengan-Ketinggian-1.653-mdpl-di-Mojokerto-by-IG-@setapakkecil.jpg?resize=1024%2C768&ssl=1"
+    },
+    {
+        "name" : "Gunung Sibayak",
+        "height" : " 2.212 mdpl",
+        "city" : "Berastagi",
+        "image" : "https://i1.wp.com/liburmulu.com/wp-content/uploads/2017/03/Gunung-Sibayak-Dengan-Ketinggian-2.212-mdpl-by-IG-@jacksibarani29.jpg?resize=1024%2C768&ssl=1"
+
+    },
+    {
+        "name" : "Gunung Kelimutu",
+        "height" : "",
+        "city" : "Ende, Nusa Tenggara Timu",
+        "image" : "https://i0.wp.com/liburmulu.com/wp-content/uploads/2017/03/Gunung-Kelimutu-Di-Flores-Dengan-Ketinggian-by-IG-@alexkhairi.jpg?w=640&ssl=1"
+
+    },
+    {
+        "name" : "Gunung Lawu",
+        "height" : "3.265 mdpl",
+        "city" : "Kabupaten Karanganyar, Jawa Tengah",
+        "image" : "https://i1.wp.com/liburmulu.com/wp-content/uploads/2017/03/Gunung-Lawu-Dengan-Ketinggian-3.265-mdpl-by-IG-@ridhokm.jpg?resize=1024%2C681&ssl=1"
+    },
+    {
+        "name" : "Gunung Ungaran",
+        "height" : " 2.050 mdpl" ,
+         "city" : "Semarang, Jawa Tengah",
+         "image" : "https://i1.wp.com/liburmulu.com/wp-content/uploads/2017/03/Gunung-Ungaran-Di-Semarang-Dengan-ketinggian-2.050-mdpl-by-IG-@erlyfaradisa.jpg?resize=1024%2C683&ssl=1"
+
+    },
+    {
+        "name" : "Gunung Bromo",
+        "height" : "2.392 mdpl",
+        "city" : "Jawa Timur",
+        "image" : "https://i2.wp.com/liburmulu.com/wp-content/uploads/2017/03/Gunung-Bromo-Di-Jawa-Timur-2.jpg?w=800&ssl=1"
+
+    },
+    {
+        "name" : "Gunung Merbabu",
+        "height" : "3,145 mdpl",
+        "city" : " Jawa Tengah",
+        "image" : "https://i0.wp.com/liburmulu.com/wp-content/uploads/2015/06/Puncak-Merbabu.jpg?w=400&ssl=1"
+    },
+    {
+        "name" : "Gunung Semeru",
+        "height" : "3.677 mdpl",
+        "city" : "Malang, Jawa Timur",
+        "image" : "https://i2.wp.com/liburmulu.com/wp-content/uploads/2015/06/Gunung-Semeru.jpg?w=640&ssl=1"
+    },
+    {
+        "name" : "Gunung Rinjani",
+        "height" : "3.727 mdpl",
+        "city" : "lombok",
+        "image" : "https://i2.wp.com/liburmulu.com/wp-content/uploads/2015/06/Segara-Anakan-Rinjani.jpg?w=640&ssl=1"
+
+    },
+    {
+        "name" : "Anak Gunung Krakatau",
+        "height" : "230 mdpl",
+        "city" : "Selat Sunda",
+        "image" : "https://i1.wp.com/liburmulu.com/wp-content/uploads/2015/06/Gunung-Anak-Krakatau.jpg?w=640&ssl=1"
+
+    },
+    {
+        "name" : "Gunung Kerinci",
+        "height" : "3.805 mdpl",
+        "city" : "Jambi",
+        "image" : "https://i0.wp.com/liburmulu.com/wp-content/uploads/2015/06/Gunung-Kerinici.jpg?w=640&ssl=1"
     }
+
+
+    
 ]

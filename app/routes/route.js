@@ -6,9 +6,21 @@ import MainInfo from '../screens/MainInfo';
 import Option from '../screens/Option';
 import Tips from '../screens/Tips';
 import TrackInfo from '../screens/TrackInfo';
+import DetailInfo from '../screens/DetailInfo';
+
+const MainStack = StackNavigator ({
+  MainInfo : {screen : MainInfo,
+  navigationOptions : {title : "Info Gunung"},
+  },
+  DetailInfo : {screen : DetailInfo}
+
+});
+
+
+
 
 const Tab = TabNavigator ({
-    MainInfo : {screen : MainInfo 
+    MainInfo : {screen : MainStack 
     , navigationOptions : {tabBarLabel : 'Main Info' },
     },
   
