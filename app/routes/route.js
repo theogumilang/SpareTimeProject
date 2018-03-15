@@ -16,7 +16,11 @@ const MainStack = StackNavigator ({
 
 });
 
-
+const TipsStack = StackNavigator ({
+   Tips : {screen: Tips,
+  navigationOptions : { title : "Tips"}
+  }
+});
 
 
 const Tab = TabNavigator ({
@@ -27,7 +31,9 @@ const Tab = TabNavigator ({
     TrackInfo : {screen : TrackInfo
         , navigationOptions : {tabBarLabel : 'Track Route' },
     },
-    Tips : {screen : Tips},
+    Tips : {screen : TipsStack,
+       navigationOptions : {tabBarLabel : 'Tips' }
+    },
     Option : {screen : Option},
 },
 {
