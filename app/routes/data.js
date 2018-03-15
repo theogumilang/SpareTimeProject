@@ -124,7 +124,32 @@ export const gunung = [
         "height" : "3.805 mdpl",
         "city" : "Jambi",
         "image" : "https://i0.wp.com/liburmulu.com/wp-content/uploads/2015/06/Gunung-Kerinici.jpg?w=640&ssl=1"
+    },
+    {
+        "name" : "Gunung Ceremai",
+        "height" : "3.078 mdpl",
+        "city" : "Kuningan, Jawa Barat",
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdYCthXJoFoG2wVcUayfIzfJ3FaZEhDQgG7uf-M-2Bja8GnmD0wA"
+    },
+    {
+        "name" : "Gunung Slamet",
+        "height" : "3.428 mdpl",
+        "city" : "Banyumas,  Jawa Tengah, Indonesia",
+        "image" : "http://picture.triptrus.com/image/2014/06/gunung-slamet-4.jpeg"
+    },
+    {
+        "name" : "Gunung Merapi",
+        "height" : "2.930 mdpl",
+        "city" : "Sleman, Yogyakarta",
+        "image" : "https://palingunik85.files.wordpress.com/2017/02/003.jpg?resize=800%2C412"
+    },
+    {
+        "name" : "Gunung Salak",
+        "height" : "2.211 mdpl",
+        "city" : "Sukabumi, Jawa Barat",
+        "image" : "http://cdn2.tstatic.net/palembang/foto/bank/images/gunung-salak_20161105_120804.jpg"
     }
+
 
 
     

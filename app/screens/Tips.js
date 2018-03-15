@@ -50,8 +50,8 @@ class Tips extends Component {
   <View> 
   <TouchableHighlight style={styles.ButtonStyle} >
   <View style={{alignItems:'center'}} >
-  <Icon size={30} color="white" name="compass" />
-    <Text style={{margin: -1}} h5> Kompas </Text>
+  <Icon size={30} color="white" name="leaf" />
+    <Text style={{margin: -1}} h5> Food </Text>
   
     </View>
     </TouchableHighlight>
