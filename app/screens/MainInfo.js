@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet , ScrollView, ListView} from 'react-native';
+import { View, Text, StyleSheet , ScrollView, ListView, FlatList} from 'react-native';
 import {gunung} from '../routes/data';
 import {List, ListItem, SearchBar } from 'react-native-elements';
 
@@ -32,7 +32,7 @@ renderRow(rowData){
       <ListItem
         key={rowData.name}
         roundAvatar
-        avatar={{ uri: rowData.image }}
+       avatar={{ uri: rowData.avatar }}
         title={rowData.name}
         subtitle={rowData.city}
         onPress={() => this.OnClick(rowData)}
@@ -48,15 +48,18 @@ renderRow(rowData){
         onChangeText={(text) => this.filterSearch(text)}
         value={this.state.text}
         placeholder='Cari Gunung Disini' />
-         <ScrollView>
+      
     
          <ListView
           enableEmptySections={true}
           style={{marginHorizontal:10}}
           renderRow={this.renderRow.bind(this)}
           dataSource={this.state.dataSource}
+          initialListSize={10}          
+          
         />
-       </ScrollView>
+       
+    
         </View>
     
     );

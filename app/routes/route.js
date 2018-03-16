@@ -10,7 +10,7 @@ import DetailInfo from '../screens/DetailInfo';
 
 const MainStack = StackNavigator ({
   MainInfo : {screen : MainInfo,
-  navigationOptions : {title : "Info Gunung",    headerStyle : { backgroundColor: '#87bcb2',}},
+  navigationOptions : {title : "Info Gunung",    headerStyle : { backgroundColor: '#bdb9e8',}},
   },
   DetailInfo : {screen : DetailInfo}
 
@@ -18,17 +18,17 @@ const MainStack = StackNavigator ({
 
 const TipsStack = StackNavigator ({
    Tips : {screen: Tips,
-  navigationOptions : { title : "Tips",    headerStyle : { backgroundColor: '#3872a5',}}
+  navigationOptions : { title : "Tips",    headerStyle : { backgroundColor: '#bdb9e8',}}
   }
 });
 const OptionsStack = StackNavigator ({
   Option : {screen : Option,
-  navigationOptions : { title : "Option" ,  headerStyle : { backgroundColor: '#285e9b',}}
+  navigationOptions : { title : "Option" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
   }
 });
 const TrackStack = StackNavigator ({
   TrackInfo : {screen : TrackInfo,
-  navigationOptions : {title : "Informasi Track" ,  headerStyle : { backgroundColor: '#5589a0',}}
+  navigationOptions : {title : "Informasi Track" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
   }
 });
 
