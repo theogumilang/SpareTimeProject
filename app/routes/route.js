@@ -7,6 +7,13 @@ import Option from '../screens/Option';
 import Tips from '../screens/Tips';
 import TrackInfo from '../screens/TrackInfo';
 import DetailInfo from '../screens/DetailInfo';
+import About from '../screens/OptionsMenu/About';
+import Summit from '../screens/TipsMenu/Summit';
+import Perlengkapan from '../screens/TipsMenu/Perlengkapan';
+import Persiapan from '../screens/TipsMenu/Persiapan';
+import Food from '../screens/TipsMenu/Food';
+import P3k from '../screens/TipsMenu/P3k';
+import FAQ from '../screens/TipsMenu/FAQ';
 
 const MainStack = StackNavigator ({
   MainInfo : {screen : MainInfo,
@@ -19,11 +26,34 @@ const MainStack = StackNavigator ({
 const TipsStack = StackNavigator ({
    Tips : {screen: Tips,
   navigationOptions : { title : "Tips",    headerStyle : { backgroundColor: '#bdb9e8',}}
-  }
+ 
+  },
+  Summit : {screen : Summit,
+    navigationOptions : {title : "7 Summit Indonesia" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
+  },
+  Perlengkapan : {screen : Perlengkapan,
+    navigationOptions : {title : "Persiapan" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
+  },
+  Persiapan : {screen : Persiapan,
+    navigationOptions : {title : "Perlengkapan" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
+  },
+  Food : {screen : Food,
+    navigationOptions : {title : "Food" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
+  },
+  P3k : {screen : P3k,
+    navigationOptions : {title : "P3K" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
+  },
+  FAQ : {screen : FAQ,
+    navigationOptions : {title : "FAQ" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
+  },
 });
+
 const OptionsStack = StackNavigator ({
   Option : {screen : Option,
   navigationOptions : { title : "Option" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
+  },
+  About : {screen : About,
+    navigationOptions : {title : "About" ,  headerStyle : { backgroundColor: '#bdb9e8',}}
   }
 });
 const TrackStack = StackNavigator ({
@@ -44,7 +74,8 @@ const Tab = TabNavigator ({
     Tips : {screen : TipsStack,
        navigationOptions : {tabBarLabel : 'Tips' }
     },
-    Option : {screen : OptionsStack},
+    Option : {screen : OptionsStack,
+      navigationOptions : {tabBarLabel : 'Option' }},
 },
 {
     tabBarComponent: NavigationComponent,

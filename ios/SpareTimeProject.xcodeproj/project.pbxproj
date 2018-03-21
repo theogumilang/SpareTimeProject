@@ -48,6 +48,7 @@
 		E4C59A9663A6466593318E56 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F034A3CC3EF408FBFA2E9E4 /* Octicons.ttf */; };
 		E00BDEB33BFB48B8BD4E524F /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B346E492B8B4485095E6931C /* SimpleLineIcons.ttf */; };
 		6E02DF7263964993A79D9B45 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EE3DF4D0E8A40B6815CDFF0 /* Zocial.ttf */; };
+		753B0EBB988441C19AE7FAE4 /* libRNJustifiedText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6550B50423694C7BABFA41D2 /* libRNJustifiedText.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -310,6 +311,8 @@
 		3F034A3CC3EF408FBFA2E9E4 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B346E492B8B4485095E6931C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		7EE3DF4D0E8A40B6815CDFF0 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1439547CA5784182AAAA025C /* RNJustifiedText.xcodeproj */ = {isa = PBXFileReference; name = "RNJustifiedText.xcodeproj"; path = "../node_modules/react-native-justified-text/ios/RNJustifiedText.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		6550B50423694C7BABFA41D2 /* libRNJustifiedText.a */ = {isa = PBXFileReference; name = "libRNJustifiedText.a"; path = "libRNJustifiedText.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +342,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				FED083C1CE5043A79C35E915 /* libRNVectorIcons.a in Frameworks */,
+				753B0EBB988441C19AE7FAE4 /* libRNJustifiedText.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +521,7 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				8A8C27E2A0BB462B975A6A0F /* RNVectorIcons.xcodeproj */,
+				1439547CA5784182AAAA025C /* RNJustifiedText.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1119,10 +1124,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-justified-text\ios",
 				);
 			};
 			name = Debug;
@@ -1144,10 +1151,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-justified-text\ios",
 				);
 			};
 			name = Release;
@@ -1170,6 +1179,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-justified-text\ios",
 				);
 			};
 			name = Debug;
@@ -1191,6 +1201,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-justified-text\ios",
 				);
 			};
 			name = Release;
@@ -1221,10 +1232,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-justified-text\ios",
 				);
 			};
 			name = Debug;
@@ -1255,10 +1268,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\react-native-justified-text\ios",
 				);
 			};
 			name = Release;
@@ -1284,6 +1299,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1308,6 +1324,7 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};

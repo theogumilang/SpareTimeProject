@@ -8,12 +8,13 @@ class Tips extends Component {
     title : "Details Gunung"
   }
   render() {
+    const { navigate } = this.props.navigation;
     return (
       <View style={styles.Container} >
       <Text h3> Tips & Info </Text>
       <View style={styles.ViewContainer} >
   <View> 
-  <TouchableHighlight style={styles.ButtonStyle} >
+  <TouchableHighlight style={styles.ButtonStyle} onPress={() => navigate('Summit')} >
   <View style={{alignItems:'center'}} >
   <Icon size={30} color="white" name="flag" />
     <Text style={{margin: -1}} h5> 7 Summit </Text>
@@ -23,7 +24,7 @@ class Tips extends Component {
 
     </View>
     <View style={{marginLeft : 20}} >  
-  <TouchableHighlight style={styles.ButtonStyle} >
+  <TouchableHighlight onPress={() => navigate('Perlengkapan')}  style={styles.ButtonStyle} >
   <View style={{alignItems:'center'}} >
   <Icon size={30} color="white" name="users" />
     <Text style={{margin: -1}} h5> Persiapan </Text>
@@ -33,7 +34,7 @@ class Tips extends Component {
 
     </View>
     <View style={{marginLeft : 20}} >  
-  <TouchableHighlight style={styles.ButtonStyle} >
+  <TouchableHighlight onPress={() => navigate('Persiapan')} style={styles.ButtonStyle} >
   <View style={{alignItems:'center'}} >
   <Icon size={30} color="white" name="briefcase" />
     <Text style={{margin: -1}} h5> Perlengkapan </Text>
@@ -48,7 +49,7 @@ class Tips extends Component {
 
         <View style={{flex: 5, flexDirection:'row',}} >
   <View> 
-  <TouchableHighlight style={styles.ButtonStyle} >
+  <TouchableHighlight onPress={()=> navigate('Food')} style={styles.ButtonStyle} >
   <View style={{alignItems:'center'}} >
   <Icon size={30} color="white" name="leaf" />
     <Text style={{margin: -1}} h5> Food </Text>
@@ -58,7 +59,7 @@ class Tips extends Component {
 
     </View>
     <View style={{marginLeft : 20}} >  
-  <TouchableHighlight style={styles.ButtonStyle} >
+  <TouchableHighlight onPress={()=> navigate('P3k')} style={styles.ButtonStyle} >
   <View style={{alignItems:'center'}} >
   <Icon size={30} color="white" name="plus-square" />
     <Text style={{margin: -1}} h5> P3K </Text>
@@ -68,7 +69,7 @@ class Tips extends Component {
 
     </View>
     <View style={{marginLeft : 20}} >  
-  <TouchableHighlight style={styles.ButtonStyle} >
+  <TouchableHighlight onPress={()=>navigate('FAQ')} style={styles.ButtonStyle} >
   <View style={{alignItems:'center'}} >
   <Icon size={30} color="white" name="question-circle" />
     <Text style={{margin: -1}} h5> FAQ </Text>

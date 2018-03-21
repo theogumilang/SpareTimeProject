@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, ScrollView ,} from 'react-native';
 import {List, ListItem} from 'react-native-elements';
 
 class Option extends Component {
-
+  OnClick() {
+    this.props.navigation.navigate('Option');
+  };
   render() {
+    const { navigate } = this.props.navigation;
     return (
     <ScrollView>
       <List>
@@ -25,6 +28,7 @@ class Option extends Component {
           <ListItem
           title="About"
           titleStyle={{fontWeight: 'bold'}}
+          onPress={() => navigate('About')}
           />
           </List>
       </ScrollView>
