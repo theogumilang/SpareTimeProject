@@ -7,9 +7,9 @@ class About extends Component {
     return (
       <View style={styles.Container}  >
        <Text h4>Anak Gunung </Text>
-        <Text style={{paddingTop:5}}  h5>Contact Us : gumilangtheodorus@gmail.com</Text>
-        <Text style={{paddingTop:5}}  h5>Headquarter : Mampang Prapatan 14 </Text>
-        <Text style={{paddingTop:5}} h5>PT HilihKhintil 2018 Allright reserved  </Text>
+        <Text style={{paddingTop:5}}  h5>Contact Us : garengdev@gmail.com</Text>
+        <Text style={{paddingTop:5}}  h5>Headquarter : South Jakarta, Indonesia </Text>
+        <Text style={{paddingTop:5}} h5>PT GarengDev 2018 Allright reserved  </Text>
       </View>
     );
   }
